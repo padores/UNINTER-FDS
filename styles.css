@@ -1,0 +1,63 @@
+body {align-content: center; 
+    background-color: lightpink; /* CSS requisito 1 */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {color: rgb(255, 215, 0); /* CSS requisito 2 */
+text-align: center; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {color: rgb(128, 0, 128); 
+    font-size: larger; /* CSS requisito 3 */
+    text-align: justify; /* CSS requisito 3 */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {word-spacing: 0px;
+list-style:lower-greek;
+margin: 0 auto;
+display: table;
+padding: 20px; /* CSS requisito 4 */
+} 
+
+img {border-radius: 50%;}  /* CSS requisito 5 */
+
+h2 {text-align: center; color: rgb(255, 215, 0);}
+
+table { /* CSS requisito 6 */
+    background-color: orangered;
+    margin: 0 auto;
+    display: table;
+    border-color: rgb(192, 192, 192) ;
+}
+
+a {
+    margin: 0 auto;
+    display: table;
+}
+a:hover {
+    color: rgb(255, 215, 0);  /* CSS requisito 7 */
+}
+
+.caixa {
+    border: 3px solid orangered;
+    align-content: center;
+}
+.caixa:hover{
+    background-color: rgb(255, 20, 147);
+}
+button{
+    margin: 0 auto;
+    display: table;
+}
+
+/*
+CSS - Requisitos de estilização:
+1. O fundo da página deve ter uma cor suave.
+2. O título (<h1>) deve ter uma cor diferente e estar centralizado.
+3. O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado.
+4. A lista (<ul>) deve ter um espaçamento maior entre os itens.
+5. A imagem (<img>) deve ter bordas arredondadas e um tamanho adequado.
+6. A tabela(<table>) deve estar estilizada.
+7. O link (<a>) deve mudar de cor quando o usuário passar o mouse sobre ele.
